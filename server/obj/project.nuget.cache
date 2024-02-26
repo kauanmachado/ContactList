@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tat9vui3fl+IOv2LrWPfVV4K0lCh3jqHr9TScPrFhhssRC7sWbDyQm2sortaIlMeiga5WmRJ7PFORG0b5SAHaw==",
+  "dgSpecHash": "OfCLQHWy5lSNHNEZEf7EwOn3WvI+uQm2rQyDv6aPdswKQLNwRVmhxu6M9lrgGAxbHm/FB5MLvqtuzp6trQ34qA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\Projects\\ContactList\\server\\ContactList.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.2\\microsoft.aspnetcore.authentication.jwtbearer.8.0.2.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.4\\microsoft.data.sqlclient.5.1.4.nupkg.sha512",

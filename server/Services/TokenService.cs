@@ -8,9 +8,10 @@ namespace ContactList.API.Services;
 
 public class TokenService
 {
+
     public static object GenerateToken(User user)
     {
-        var key = Encoding.ASCII.GetBytes(Key.Secret);
+        var key = Encoding.UTF8.GetBytes(Key.Secret);
         var tokenConfig = new SecurityTokenDescriptor
         {
             Subject = new System.Security.Claims.ClaimsIdentity(new Claim[]

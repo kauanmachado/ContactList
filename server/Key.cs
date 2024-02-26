@@ -2,5 +2,5 @@
 
 public class Key
 {
-    public static string Secret = "kjdnlkjandsa";
+    public static string Secret = "kjdnlkjandsalkajldjaskjahkjaldjlajdlsakdaasd";
 }

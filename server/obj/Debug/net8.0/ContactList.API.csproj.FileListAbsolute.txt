@@ -68,3 +68,6 @@ C:\Users\Lenovo\Desktop\Projects\ContactList\server\obj\Debug\net8.0\refint\Cont
 C:\Users\Lenovo\Desktop\Projects\ContactList\server\obj\Debug\net8.0\ContactList.API.pdb
 C:\Users\Lenovo\Desktop\Projects\ContactList\server\obj\Debug\net8.0\ContactList.API.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\Projects\ContactList\server\obj\Debug\net8.0\ref\ContactList.API.dll
+C:\Users\Lenovo\Desktop\Projects\ContactList\server\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Lenovo\Desktop\Projects\ContactList\server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Lenovo\Desktop\Projects\ContactList\server\obj\Debug\net8.0\ContactList.API.sourcelink.json

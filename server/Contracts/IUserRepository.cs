@@ -4,7 +4,8 @@ namespace ContactList.API.Contracts;
 
 public interface IUserRepository
 {
-    public bool? SignIn(User user);
+    public User SignIn(string email, string password);
     public void SignUp(User user);
-    public void SignOut(int id);
+    public void SignOut();
+    bool ExistUserWithEmail(string email);
 }

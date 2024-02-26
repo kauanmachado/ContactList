@@ -5,12 +5,17 @@ namespace ContactList.API.Model;
 
 [Table("contacts")]
 public class Contact
-{   
+{
+    public Contact(Guid id, string contactname, string email, string tel, Guid user_id)
+    { 
+           
+    }
+
     [Key]
-    public int id { get; set; }
+    public Guid id { get; set; }
     public string contactname { get; set; } = string.Empty;
     public string email { get; set; } = string.Empty;
     public string tel { get; set; } = string.Empty;
-    public int user_id { get; set; }
+    public Guid user_id { get; set; }
 
 }
