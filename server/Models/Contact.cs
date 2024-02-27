@@ -6,9 +6,11 @@ namespace ContactList.API.Model;
 [Table("contacts")]
 public class Contact
 {
-    public Contact(Guid id, string contactname, string email, string tel, Guid user_id)
+    public Contact(string contactname, string email, string tel)
     { 
-           
+          this.contactname = contactname;
+          this.email = email;
+          this.tel = tel;
     }
 
     [Key]

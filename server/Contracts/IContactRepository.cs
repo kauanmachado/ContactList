@@ -5,7 +5,7 @@ namespace ContactList.API.Contracts;
 public interface IContactRepository
 {
     public void Add(Contact contact);
-    public void Update(int contactId, Contact contact);
-    public bool Delete(int contactId);
-    public List<Contact> GetContacts();
+    public void Update(Guid contactId, Contact contact);
+    public void Delete(Guid contactId);
+    public List<Contact> GetContacts(Guid userId);
 }

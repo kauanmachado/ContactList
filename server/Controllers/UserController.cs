@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ContactList.API.Controllers;
 
 [ApiController]
-[Route("/api/user")]
+[Route("/user")]
 public class UserController : ControllerBase
 {
     private readonly IUserRepository _userRepository;
