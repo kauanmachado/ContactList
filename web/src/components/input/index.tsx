@@ -6,15 +6,15 @@ type InputProps = InputHTMLAttributes<HTMLInputElement> & {
   helperText?: string
 };
 
-export default function Input(
+ function Input(
   { type = "text", name = "", label = "", helperText = "", ...props }: InputProps,
-  ref: React.ForwardedRef<HTMLInputElement>
+  ref: any
   ) {
 
-  const hasError = helperText.length < 5
+  
   
   return (
-    <div className="mt-2 w-full">
+    <div className="mt-2 flex flex-col justify-center">
       <label htmlFor="email" className="text-gray-500">
         {label}
       </label>
@@ -23,10 +23,12 @@ export default function Input(
         name={name}
         ref={ref}
         {...props}
-        className="w-full flex rounded-lg shadow bg-gray-50 sm:max-w-md p-4"
+        className="flex rounded-lg shadow bg-gray-50 p-4"
       />
-      {hasError && <span className="text-red-400">{helperText}</span>}
+      <span className="text-red-400">{helperText}</span>
     </div>
   )
 }
+
+export default forwardRef(Input)
 
