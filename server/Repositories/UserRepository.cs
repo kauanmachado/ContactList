@@ -54,7 +54,7 @@ public class UserRepository : IUserRepository
     {
         try
         {
-            if (IsEmailInUse(user.email))
+            if (ExistUserWithEmail(user.email))
             {
                 throw new Exception("O email fornecido já está em uso.");
             }
@@ -72,10 +72,6 @@ public class UserRepository : IUserRepository
     public bool ExistUserWithEmail(string email)
     {
         return _context.users.Any(user => user.email.Equals(email));
-    }
-    private bool IsEmailInUse(string email)
-    {
-        return _context.users.Any(u => u.email == email);
     }
     private bool VerifyPassword(string inputPassword, string hashedPassword)
     {

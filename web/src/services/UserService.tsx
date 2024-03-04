@@ -1,13 +1,11 @@
 import axios, { AxiosResponse } from "axios";
+import { axiosInstance } from "./AxiosConfig";
 
-export const axiosInstance = axios.create({
-    baseURL: "http://localhost:8080"
-})
 
 export class UserServices {
-    SignIn(data: any): Promise<AxiosResponse>{
-        return 0;
-    }
+    SignIn(data: DataProps): Promise<AxiosResponse>{
+        return axiosInstance.post("/user/sign-in", data)
+     }
     SignUp(data: any): Promise<AxiosResponse>{
         return axiosInstance.post("/user/sign-up", data)
     }

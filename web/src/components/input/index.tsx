@@ -11,8 +11,6 @@ type InputProps = InputHTMLAttributes<HTMLInputElement> & {
   ref: any
   ) {
 
-  
-  
   return (
     <div className="mt-2 flex flex-col justify-center">
       <label htmlFor="email" className="text-gray-500">

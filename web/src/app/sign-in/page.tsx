@@ -38,6 +38,7 @@ export default function Page(){
             <h1 className="text-2xl font-bold mb-6">Acessar minha conta</h1>
 
             <form onSubmit={onSubmit(handleForm)}>
+
             <Input 
                 {...register('email')}
                 type="email" 
@@ -46,6 +47,7 @@ export default function Page(){
                 label="E-mail"
                 helperText={errors.email?.message}
                 />
+
             <Input 
                 {...register('password')}
                 type="password" 
@@ -59,6 +61,7 @@ export default function Page(){
             <button type="submit" className="mb-6 mt-6 p-4 w-full text-center rounded-lg shadow bg-emerald-500 text-white hover:bg-emerald-600 transition-all">
                     Entrar
             </button>
+            
             </form>
             <span className="text-gray-500 mt-4">Não possui cadastro? <Link className="underline text-cyan-600 hover:text-cyan-500" href="/sign-up">Cadastre-se aqui</Link></span>
         </div>
